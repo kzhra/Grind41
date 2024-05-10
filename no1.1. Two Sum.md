@@ -1,7 +1,7 @@
 # Step1
-2重ループで足していくやり方
-時間計算量 O(n^2)
-空間計算量 O(1)
+2重ループで足していくやり方  
+時間計算量 O(n^2)  
+空間計算量 O(1)  
 ```cpp
 class Solution {
 public:
@@ -20,11 +20,11 @@ public:
 ```
 
 # Step2
-unordered_map を使用するものに変更
-count が contains でよかったと後から思う
-時間計算量 O(n)
-空間計算量 O(n)
-参照
+unordered_map を使用するものに変更  
+count が contains でよかったと後から思う  
+時間計算量 O(n)  
+空間計算量 O(n)  
+参照  
 https://github.com/colorbox/leetcode/pull/3  
 https://github.com/cheeseNA/leetcode/pull/1  
 https://github.com/Kitaken0107/GrindEasy/pull/4  
