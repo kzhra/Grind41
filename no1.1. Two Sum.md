@@ -1,5 +1,7 @@
 # Step1
 2重ループで足していくやり方
+時間計算量 O(n^2)
+空間計算量 O(1)
 ```cpp
 class Solution {
 public:
@@ -20,12 +22,14 @@ public:
 # Step2
 unordered_map を使用するものに変更
 count が contains でよかったと後から思う
+時間計算量 O(n)
+空間計算量 O(n)
 参照
-https://github.com/colorbox/leetcode/pull/3
-https://github.com/cheeseNA/leetcode/pull/1
-https://github.com/Kitaken0107/GrindEasy/pull/4
-https://github.com/tshimosake/arai60/blob/master/hash/two_sum.py
-https://github.com/usatie/leetcode/tree/main/Arai60/01.%20Two%20Sum
+https://github.com/colorbox/leetcode/pull/3  
+https://github.com/cheeseNA/leetcode/pull/1  
+https://github.com/Kitaken0107/GrindEasy/pull/4  
+https://github.com/tshimosake/arai60/blob/master/hash/two_sum.py  
+https://github.com/usatie/leetcode/tree/main/Arai60/01.%20Two%20Sum  
 ```cpp
 class Solution {
 public:
