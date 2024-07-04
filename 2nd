@@ -1,0 +1,29 @@
+# 2nd
+inplace でやりたい→ポインタを使う  
+```cpp
+class Solution {
+public:
+    bool isPalindrome(string s) {
+        int start_index = 0;    //from_start?, start_to_end_index,
+        int end_index = s.length() - 1;
+
+        while(start_index <= end_index) {
+            if( !isalnum(s[start_index]) ) {
+                ++start_index;
+                continue;
+            }
+            if( !isalnum(s[end_index]) ) {
+                --end_index;
+                continue;
+            }
+            if( std::tolower(s[start_index]) != std::tolower(s[end_index]) ) {
+                return false;
+            } else {
+                ++start_index;
+                --end_index;
+            }
+        }
+        return true;
+    }
+};
+```
